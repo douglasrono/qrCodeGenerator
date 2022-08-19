@@ -13,26 +13,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>QR CODE GENERATOR</h1>
-            <p>Enter the text or URL to generate the QR Code </p>
-        </div>
+        <h1>QR CODE GENERATOR</h1>
+        <p>Paste a url or text </p>
         <div class="form">
-            <input type="text" placeholder="Enter a text or url">
-            <button class="qrbtn">Generate QR code</button>
+            <input type="text" id="qrInput" placeholder="Enter text or url">
+            <button id="qrGenerator">Generate QR code</button>
         </div>
-        <div class="qrCode active">
-
+        <div class="qr-image">
+            <img src="" alt="qrcode">
         </div>
-       <div class="credit">
-        <span>
-            <b>Code</b> by <a href="https://wwww.douglasrono.github.io" target="_blank"><i>Douglas Rono</i></a>
-        </span>
-      </div>
     </div>
-  
 
-    <!-- js file -->
     <script src="main.js"></script>
 </body>
 </html>
