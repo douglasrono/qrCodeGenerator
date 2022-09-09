@@ -11,19 +11,25 @@ body{
     background-color: gray;
     color: black;
 }
+.qr-image{
+    display: none;
+}
 .container{
     max-width: 500px;
     height: auto;
-    background-color: rgb(170, 148, 148);
     box-shadow: 2px 2px 10px black;
     padding: 50px;
     border-radius: 8px;
+}
+.container .active .qr-image{
+    display: block;
+
 }
 .container h1{
     font-size: 28px;
     text-decoration: underline;
     margin-bottom: 8px;
-    color: blue;
+    color: rgba(0, 0, 255, 0.639);
     
 }
 .container p{
