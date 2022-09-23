@@ -1,2 +1,2 @@
 # qrCodeGenerator
-<p> qrcode generator</p>
+<p>Transfer data securely with the most secure qrcode generator</p>
