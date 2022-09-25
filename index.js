@@ -11,7 +11,6 @@ qrCodeBtn.addEventListener('click', () => {
       qrImage.classList.add(active);
       qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=qrValue`;
    
-    console.log("hello");
    })
     
  });
