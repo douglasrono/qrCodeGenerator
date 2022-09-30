@@ -7,13 +7,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
     background-color: gray;
     color: black;
 }
-.qr-image{
-    display: none;
-}
+
 .container{
     max-width: 500px;
     height: auto;
@@ -21,10 +18,7 @@ body{
     padding: 50px;
     border-radius: 8px;
 }
-.container .active .qr-image{
-    display: block;
 
-}
 .container h1{
     font-size: 28px;
     text-decoration: underline;
@@ -54,5 +48,4 @@ body{
 .qr-image{
     display: flex;
     justify-content: center;
-
 }
